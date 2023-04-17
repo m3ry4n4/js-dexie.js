@@ -1,0 +1,835 @@
+
+
+Looking to generate fake data based on your production data? Mimic your databases with a trial account from
+
+Need some mock data to test your app? Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.
+
+Need more data? Plans start at just $60/year. Mockaroo is also available as a docker image that you can deploy in your own private cloud.
+Field Name
+Type
+Options
+kar_id
+​
+blank:
+0
+%
+
+​
+nama
+​
+blank:
+0
+%
+
+​
+alamat
+​
+blank:
+0
+%
+
+​
+no_hp
+​
+format:
+###-###-####
+​
+blank:
+0
+%
+
+​
+tgl_lahir
+​
+04/17/2022
+​
+to
+04/17/2023
+​
+format:
+%-m/%-d/%Y
+​
+blank:
+0
+%
+
+​
+image
+​
+size:
+50
+​
+×
+50
+​
+format:
+png
+​
+blank:
+0
+%
+
+​
+# Rows:
+1000
+​
+Format:
+json
+​
+array
+include null values
+Hint: Use "." in column names to generate nested json objects, brackets to generate arrays. More information...
+
+Mock your back-end API and start coding your UI today.
+It's hard to put together a meaningful UI prototype without making real requests to an API. By making real requests, you'll uncover problems with application flow, timing, and API design early, improving the quality of both the user experience and API. With Mockaroo, you can design your own mock APIs, You control the URLs, responses, and error conditions. Paralellize UI and API development and start delivering better applications faster today!
+
+Why is test data important?
+If you're developing an application, you'll want to make sure you're testing it under conditions that closely simulate a production environment. In production, you'll have an army of users banging away at your app and filling your database with data, which puts stress on your code. If you're hand-entering data into a test environment one record at a time using the UI, you're never going to build up the volume and variety of data that your app will accumulate in a few days in production. Worse, the data you enter will be biased towards your own usage patterns and won't match real-world usage, leaving important bugs undiscovered.
+
+Why is realistic data important?
+When your test database is filled with realistic looking data, you'll be more engaged as a tester. When you demonstrate new features to others, they'll understand them faster. Real data is varied and will contain characters that may not play nice with your code, such as apostrophes, or unicode characters from other languages. Testing with realistic data will make your app more robust because you'll catch errors that are likely to occur in production before release day.
+
+Why Mockaroo?
+There are plenty of great data mocking libraries available for almost every language and platform. But not everyone is a programmer or has time to learn a new framework. Mockaroo allows you to quickly and easily to download large amounts of randomly generated test data based on your own specs which you can then load directly into your test environment using SQL or CSV formats. No programming is required.
+
+Want to automate test data generation?
+If you sign in using your Google account, you can download random data programmatically by saving your schemas and using curl to download data in a shell script via a RESTful url.
+
+What's new in Mockaroo?
+4/15/2023
+You can now generate your own custom data types using AI.
+4/12/2023
+You can now generate fields on any topic using AI
+4/2/2023
+Added support for XML attributes by naming fields starting with "@"
+2/3/2023
+Added the ability to generate v5 UUIDs via a new uuid_v5(namespace, name) function in formulas
+1/22/2023
+Added the ability to force the quote character on custom file formats.
+1/4/2023
+Added Address Line 2 type.
+12/22/2022
+Added a ULID data type.
+11/20/2022
+Added airport data.
+11/14/2021
+You can now generate datasets using JSON and import them into other schemas using the Dataset Column type.
+10/14/2021
+Added support for InfluxDB
+6/19/2021
+Added the ability to import fields from a JSON schema or example JSON object.
+5/22/2021
+You can now create a dataset directly from a schema. You no longer need to download and reupload generated data to create a dataset!
+5/19/2021
+You can now stream data to an MQTT endpoint! Click More > Stream to MQTT Endpoint... to get started.
+5/3/2021
+Added types related to construction work.
+5/3/2021
+Added Etherium and Tezos types.
+© 2023 Mockaroo, LLC.   |  Terms of Use   |  EULA   |  Privacy
+Preview
+[{
+  "kar_id": 1,
+  "nama": "Rivi",
+  "alamat": "16th Floor",
+  "no_hp": "624-159-0555",
+  "tgl_lahir": "7/28/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 2,
+  "nama": "Roman",
+  "alamat": "15th Floor",
+  "no_hp": "185-746-4978",
+  "tgl_lahir": "11/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 3,
+  "nama": "Karia",
+  "alamat": "PO Box 68120",
+  "no_hp": "627-680-6800",
+  "tgl_lahir": "10/25/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 4,
+  "nama": "Luke",
+  "alamat": "Suite 71",
+  "no_hp": "313-643-4742",
+  "tgl_lahir": "9/10/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 5,
+  "nama": "Dimitri",
+  "alamat": "Apt 191",
+  "no_hp": "989-334-7350",
+  "tgl_lahir": "2/25/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 6,
+  "nama": "Jyoti",
+  "alamat": "14th Floor",
+  "no_hp": "938-630-9436",
+  "tgl_lahir": "10/12/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 7,
+  "nama": "Damian",
+  "alamat": "Suite 81",
+  "no_hp": "675-213-1859",
+  "tgl_lahir": "3/19/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 8,
+  "nama": "Dorothee",
+  "alamat": "Suite 18",
+  "no_hp": "655-226-3305",
+  "tgl_lahir": "8/8/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 9,
+  "nama": "Trenton",
+  "alamat": "Room 20",
+  "no_hp": "178-829-6548",
+  "tgl_lahir": "10/11/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 10,
+  "nama": "Gillian",
+  "alamat": "Suite 52",
+  "no_hp": "828-370-4700",
+  "tgl_lahir": "8/8/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 11,
+  "nama": "Hertha",
+  "alamat": "PO Box 55152",
+  "no_hp": "250-903-1139",
+  "tgl_lahir": "8/4/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 12,
+  "nama": "Lula",
+  "alamat": "Apt 1593",
+  "no_hp": "285-513-9117",
+  "tgl_lahir": "2/22/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 13,
+  "nama": "Shaina",
+  "alamat": "1st Floor",
+  "no_hp": "682-207-6010",
+  "tgl_lahir": "5/28/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 14,
+  "nama": "Judon",
+  "alamat": "Apt 862",
+  "no_hp": "303-189-5540",
+  "tgl_lahir": "2/22/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 15,
+  "nama": "Deb",
+  "alamat": "Suite 43",
+  "no_hp": "418-899-0738",
+  "tgl_lahir": "1/3/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 16,
+  "nama": "Anya",
+  "alamat": "Apt 601",
+  "no_hp": "840-310-9536",
+  "tgl_lahir": "3/30/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 17,
+  "nama": "Koral",
+  "alamat": "PO Box 96103",
+  "no_hp": "128-776-5853",
+  "tgl_lahir": "3/18/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 18,
+  "nama": "Edgard",
+  "alamat": "Room 79",
+  "no_hp": "776-359-3035",
+  "tgl_lahir": "3/3/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 19,
+  "nama": "Hyacinthie",
+  "alamat": "6th Floor",
+  "no_hp": "743-651-3074",
+  "tgl_lahir": "2/17/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 20,
+  "nama": "Alvira",
+  "alamat": "11th Floor",
+  "no_hp": "552-420-0435",
+  "tgl_lahir": "4/29/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 21,
+  "nama": "Lewie",
+  "alamat": "Room 938",
+  "no_hp": "524-807-6430",
+  "tgl_lahir": "8/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 22,
+  "nama": "Anabelle",
+  "alamat": "5th Floor",
+  "no_hp": "693-680-8799",
+  "tgl_lahir": "11/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 23,
+  "nama": "Elisabet",
+  "alamat": "Room 898",
+  "no_hp": "809-840-7167",
+  "tgl_lahir": "1/20/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 24,
+  "nama": "Korie",
+  "alamat": "Suite 18",
+  "no_hp": "561-949-1775",
+  "tgl_lahir": "1/25/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 25,
+  "nama": "Ali",
+  "alamat": "Apt 252",
+  "no_hp": "947-897-7620",
+  "tgl_lahir": "6/25/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 26,
+  "nama": "Brod",
+  "alamat": "Room 1003",
+  "no_hp": "362-274-1254",
+  "tgl_lahir": "11/12/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 27,
+  "nama": "Quincy",
+  "alamat": "Apt 1359",
+  "no_hp": "523-358-4280",
+  "tgl_lahir": "3/26/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 28,
+  "nama": "Stacee",
+  "alamat": "Suite 88",
+  "no_hp": "166-714-6156",
+  "tgl_lahir": "10/29/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 29,
+  "nama": "Shawn",
+  "alamat": "Apt 446",
+  "no_hp": "806-752-7419",
+  "tgl_lahir": "11/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 30,
+  "nama": "Hadley",
+  "alamat": "Room 1902",
+  "no_hp": "366-976-2541",
+  "tgl_lahir": "4/25/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 31,
+  "nama": "Bryon",
+  "alamat": "1st Floor",
+  "no_hp": "253-280-5879",
+  "tgl_lahir": "4/24/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 32,
+  "nama": "Englebert",
+  "alamat": "Suite 58",
+  "no_hp": "866-780-4870",
+  "tgl_lahir": "12/13/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 33,
+  "nama": "Marijo",
+  "alamat": "17th Floor",
+  "no_hp": "661-458-6307",
+  "tgl_lahir": "11/20/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 34,
+  "nama": "Jarad",
+  "alamat": "Apt 1524",
+  "no_hp": "956-343-8990",
+  "tgl_lahir": "5/23/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 35,
+  "nama": "Miquela",
+  "alamat": "Room 1883",
+  "no_hp": "442-175-0258",
+  "tgl_lahir": "11/9/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 36,
+  "nama": "Rowan",
+  "alamat": "15th Floor",
+  "no_hp": "442-647-5948",
+  "tgl_lahir": "5/22/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 37,
+  "nama": "Moyra",
+  "alamat": "5th Floor",
+  "no_hp": "839-848-0373",
+  "tgl_lahir": "10/18/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 38,
+  "nama": "Wheeler",
+  "alamat": "Suite 10",
+  "no_hp": "790-860-7696",
+  "tgl_lahir": "3/14/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 39,
+  "nama": "Ludvig",
+  "alamat": "Room 1960",
+  "no_hp": "586-386-8151",
+  "tgl_lahir": "4/6/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 40,
+  "nama": "Fionnula",
+  "alamat": "PO Box 57430",
+  "no_hp": "325-457-4357",
+  "tgl_lahir": "1/12/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 41,
+  "nama": "Daisey",
+  "alamat": "PO Box 11848",
+  "no_hp": "590-539-3110",
+  "tgl_lahir": "12/27/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 42,
+  "nama": "Emera",
+  "alamat": "Room 438",
+  "no_hp": "280-530-3453",
+  "tgl_lahir": "2/26/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 43,
+  "nama": "Ruby",
+  "alamat": "PO Box 42756",
+  "no_hp": "647-873-2199",
+  "tgl_lahir": "1/4/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 44,
+  "nama": "Wally",
+  "alamat": "Apt 1141",
+  "no_hp": "438-433-9841",
+  "tgl_lahir": "5/31/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 45,
+  "nama": "Arlana",
+  "alamat": "Suite 83",
+  "no_hp": "462-483-5865",
+  "tgl_lahir": "8/16/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 46,
+  "nama": "Jessie",
+  "alamat": "Apt 1818",
+  "no_hp": "702-848-6827",
+  "tgl_lahir": "6/22/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 47,
+  "nama": "Burke",
+  "alamat": "Suite 53",
+  "no_hp": "656-818-3697",
+  "tgl_lahir": "2/4/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 48,
+  "nama": "Vania",
+  "alamat": "Apt 101",
+  "no_hp": "156-600-8534",
+  "tgl_lahir": "4/4/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 49,
+  "nama": "Sim",
+  "alamat": "Apt 219",
+  "no_hp": "991-811-6120",
+  "tgl_lahir": "8/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 50,
+  "nama": "Ingrim",
+  "alamat": "PO Box 23447",
+  "no_hp": "696-476-4554",
+  "tgl_lahir": "9/8/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 51,
+  "nama": "Irwinn",
+  "alamat": "Room 1700",
+  "no_hp": "616-683-6999",
+  "tgl_lahir": "11/20/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 52,
+  "nama": "Meryl",
+  "alamat": "PO Box 56407",
+  "no_hp": "911-738-6663",
+  "tgl_lahir": "9/12/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 53,
+  "nama": "Romola",
+  "alamat": "Suite 61",
+  "no_hp": "445-534-6220",
+  "tgl_lahir": "10/25/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 54,
+  "nama": "Zerk",
+  "alamat": "PO Box 14171",
+  "no_hp": "324-537-7268",
+  "tgl_lahir": "8/1/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 55,
+  "nama": "Tybie",
+  "alamat": "Suite 72",
+  "no_hp": "424-714-6199",
+  "tgl_lahir": "5/30/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 56,
+  "nama": "Vicky",
+  "alamat": "Apt 1882",
+  "no_hp": "672-494-6817",
+  "tgl_lahir": "4/3/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 57,
+  "nama": "Audrye",
+  "alamat": "Suite 29",
+  "no_hp": "381-276-8232",
+  "tgl_lahir": "9/16/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 58,
+  "nama": "Salim",
+  "alamat": "Room 725",
+  "no_hp": "498-158-7633",
+  "tgl_lahir": "2/16/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 59,
+  "nama": "Rriocard",
+  "alamat": "Apt 110",
+  "no_hp": "901-638-1627",
+  "tgl_lahir": "1/16/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 60,
+  "nama": "Weston",
+  "alamat": "Suite 98",
+  "no_hp": "154-989-4275",
+  "tgl_lahir": "6/17/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 61,
+  "nama": "Tremain",
+  "alamat": "Apt 1365",
+  "no_hp": "179-985-2620",
+  "tgl_lahir": "5/7/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 62,
+  "nama": "Gael",
+  "alamat": "17th Floor",
+  "no_hp": "906-885-1074",
+  "tgl_lahir": "12/3/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 63,
+  "nama": "Luelle",
+  "alamat": "Apt 555",
+  "no_hp": "330-800-9804",
+  "tgl_lahir": "9/8/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 64,
+  "nama": "Correy",
+  "alamat": "Apt 1655",
+  "no_hp": "763-559-4184",
+  "tgl_lahir": "10/30/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 65,
+  "nama": "Hendrika",
+  "alamat": "PO Box 37764",
+  "no_hp": "293-802-7703",
+  "tgl_lahir": "2/28/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 66,
+  "nama": "Angeli",
+  "alamat": "PO Box 50612",
+  "no_hp": "178-520-6423",
+  "tgl_lahir": "7/21/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 67,
+  "nama": "Staci",
+  "alamat": "Apt 1073",
+  "no_hp": "399-312-9415",
+  "tgl_lahir": "1/1/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 68,
+  "nama": "Ann",
+  "alamat": "Room 905",
+  "no_hp": "538-621-3814",
+  "tgl_lahir": "2/8/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 69,
+  "nama": "Diane-marie",
+  "alamat": "PO Box 42910",
+  "no_hp": "446-271-0151",
+  "tgl_lahir": "4/15/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 70,
+  "nama": "Dyana",
+  "alamat": "PO Box 44030",
+  "no_hp": "926-113-3188",
+  "tgl_lahir": "5/1/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 71,
+  "nama": "Adele",
+  "alamat": "PO Box 88142",
+  "no_hp": "585-340-4343",
+  "tgl_lahir": "11/17/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 72,
+  "nama": "Kristina",
+  "alamat": "Room 1185",
+  "no_hp": "392-314-7358",
+  "tgl_lahir": "11/28/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 73,
+  "nama": "Reece",
+  "alamat": "Room 610",
+  "no_hp": "259-343-6590",
+  "tgl_lahir": "5/12/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 74,
+  "nama": "Raye",
+  "alamat": "14th Floor",
+  "no_hp": "497-674-5596",
+  "tgl_lahir": "8/22/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 75,
+  "nama": "Ediva",
+  "alamat": "Apt 1414",
+  "no_hp": "277-622-8204",
+  "tgl_lahir": "8/22/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 76,
+  "nama": "Kennith",
+  "alamat": "Suite 41",
+  "no_hp": "531-964-0277",
+  "tgl_lahir": "12/13/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 77,
+  "nama": "Clair",
+  "alamat": "Suite 89",
+  "no_hp": "875-666-7119",
+  "tgl_lahir": "8/29/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 78,
+  "nama": "Jacquie",
+  "alamat": "Room 133",
+  "no_hp": "499-465-6556",
+  "tgl_lahir": "8/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 79,
+  "nama": "Jonah",
+  "alamat": "PO Box 89104",
+  "no_hp": "620-878-6530",
+  "tgl_lahir": "10/27/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 80,
+  "nama": "Tomasine",
+  "alamat": "Apt 552",
+  "no_hp": "783-139-7302",
+  "tgl_lahir": "2/17/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 81,
+  "nama": "Siana",
+  "alamat": "PO Box 87215",
+  "no_hp": "935-909-0059",
+  "tgl_lahir": "10/2/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 82,
+  "nama": "Morena",
+  "alamat": "PO Box 45214",
+  "no_hp": "251-598-7140",
+  "tgl_lahir": "9/7/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 83,
+  "nama": "Ricky",
+  "alamat": "Room 32",
+  "no_hp": "480-417-9464",
+  "tgl_lahir": "1/26/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 84,
+  "nama": "Cornelia",
+  "alamat": "Room 881",
+  "no_hp": "466-211-6882",
+  "tgl_lahir": "8/15/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 85,
+  "nama": "Ingra",
+  "alamat": "PO Box 76716",
+  "no_hp": "194-807-8716",
+  "tgl_lahir": "9/3/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 86,
+  "nama": "Corilla",
+  "alamat": "Room 279",
+  "no_hp": "991-921-0818",
+  "tgl_lahir": "2/24/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 87,
+  "nama": "Reena",
+  "alamat": "Apt 1772",
+  "no_hp": "307-156-1608",
+  "tgl_lahir": "9/25/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 88,
+  "nama": "Erinna",
+  "alamat": "PO Box 78675",
+  "no_hp": "452-830-7189",
+  "tgl_lahir": "11/29/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 89,
+  "nama": "Marketa",
+  "alamat": "Suite 53",
+  "no_hp": "554-683-1126",
+  "tgl_lahir": "12/11/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 90,
+  "nama": "Kati",
+  "alamat": "PO Box 76246",
+  "no_hp": "434-883-3306",
+  "tgl_lahir": "10/8/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 91,
+  "nama": "Barbe",
+  "alamat": "15th Floor",
+  "no_hp": "733-240-7278",
+  "tgl_lahir": "1/13/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 92,
+  "nama": "Hanna",
+  "alamat": "Apt 707",
+  "no_hp": "620-424-8880",
+  "tgl_lahir": "11/6/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 93,
+  "nama": "Minnaminnie",
+  "alamat": "4th Floor",
+  "no_hp": "320-877-6528",
+  "tgl_lahir": "4/29/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 94,
+  "nama": "Krishnah",
+  "alamat": "PO Box 58874",
+  "no_hp": "901-195-8127",
+  "tgl_lahir": "11/23/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 95,
+  "nama": "Maia",
+  "alamat": "PO Box 59430",
+  "no_hp": "343-210-8314",
+  "tgl_lahir": "11/2/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 96,
+  "nama": "Valentine",
+  "alamat": "16th Floor",
+  "no_hp": "657-400-0076",
+  "tgl_lahir": "6/30/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 97,
+  "nama": "Andreas",
+  "alamat": "Apt 1631",
+  "no_hp": "883-584-2999",
+  "tgl_lahir": "1/9/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 98,
+  "nama": "Jordanna",
+  "alamat": "11th Floor",
+  "no_hp": "527-915-0144",
+  "tgl_lahir": "9/5/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 99,
+  "nama": "Obadiah",
+  "alamat": "Suite 64",
+  "no_hp": "832-177-9247",
+  "tgl_lahir": "3/3/2023",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}, {
+  "kar_id": 100,
+  "nama": "Lucine",
+  "alamat": "Room 1785",
+  "no_hp": "993-622-5363",
+  "tgl_lahir": "6/1/2022",
+  "image": "error: wrong number of arguments (given 3, expected 0)"
+}]
+showing first 100 rows
+# Rows:
+1000
+​
